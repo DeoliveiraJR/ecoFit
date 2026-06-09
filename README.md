@@ -77,12 +77,15 @@ ecoFit/
 │       ├── ecofit-development/       ← Git Workflow & Development
 │       └── ecofit-getting-started/   ← Setup & Arquitetura
 ├── src/
-│   ├── mobile/      ← React Native App
-│   ├── api/         ← NestJS Backend
-│   └── shared/      ← Código compartilhado
-├── README.md        ← Este arquivo
-└── CHANGELOG.md     ← Histórico de versões
+│   ├── mobile/      ← React Native App (Expo Router)
+│   ├── api/         ← NestJS Backend (PostgreSQL + Prisma)
+│   └── shared/      ← Tipos e utilitários compartilhados
+├── ARCHITECTURE.md                  ← Diagrama completo da arquitetura
+├── README.md                        ← Este arquivo
+└── CHANGELOG.md                     ← Histórico de versões
 ```
+
+**📖 Para estrutura detalhada:** veja [ARCHITECTURE.md](./ARCHITECTURE.md)
 
 ---
 
