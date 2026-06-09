@@ -285,11 +285,28 @@ git commit -m "merge: resolver conflitos"
 
 ---
 
+## 🏗️ Entender a Arquitetura
+
+> Para entender a estrutura de diretórios do projeto, fluxo de dados e como componentes se relacionam:
+> 
+> ### 🔗 [ARCHITECTURE.md](../../ARCHITECTURE.md) ← **Estrutura de Diretórios**
+> ### 🔗 [ARCHITECTURE_MAINTENANCE.md](../../ARCHITECTURE_MAINTENANCE.md) ← **Como Manter Atualizado**
+
+Consulte estes arquivos antes de:
+- Criar novos diretórios ou módulos
+- Refatorar estrutura de pastas
+- Entender onde adicionar novos componentes/serviços
+- Atualizar a arquitetura após mudanças estruturais
+
+---
+
 ## 📖 Referências
 
 - [Git Official Docs](https://git-scm.com/doc)
 - [Conventional Commits](https://www.conventionalcommits.org/)
 - [GitHub Flow](https://guides.github.com/introduction/flow/)
+- **[ARCHITECTURE.md](../../ARCHITECTURE.md)** ← Estrutura de diretórios e diagrama de fluxo
+- **[ARCHITECTURE_MAINTENANCE.md](../../ARCHITECTURE_MAINTENANCE.md)** ← Como manter arquitetura atualizada
 
 **Repository:** https://github.com/DeoliveiraJR/ecoFit  
 **Local:** `/freelas/ecoFIT/ecoFit`

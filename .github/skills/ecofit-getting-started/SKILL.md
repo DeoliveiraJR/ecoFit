@@ -193,39 +193,17 @@ npm run dev
 
 ## 📊 Arquitetura
 
-### Mobile (React Native)
-
-```
-src/mobile/
-├── app/                 ← Routing (Expo Router)
-│   ├── index.tsx       ← Splash
-│   ├── (auth)/         ← Onboarding, Login
-│   └── (app)/          ← Main app screens
-├── components/          ← Reusable UI components
-├── screens/            ← Page components
-├── hooks/              ← Custom React hooks
-├── services/           ← API calls, external services
-├── stores/             ← State management (Zustand/Context)
-├── styles/             ← Global styles
-└── types/              ← TypeScript types
-```
-
-### Backend (NestJS)
-
-```
-src/api/
-├── src/
-│   ├── auth/           ← Autenticação
-│   ├── users/          ← Usuários
-│   ├── workouts/       ← Treinos
-│   ├── habits/         ← Hábitos
-│   ├── chat/           ← CapyCoach API
-│   ├── database/       ← Prisma setup
-│   └── main.ts         ← Entrada
-├── prisma/
-│   └── schema.prisma   ← Database schema
-└── test/               ← Testes
-```
+> 📖 **Para estrutura completa de diretórios, diagrama de fluxo de dados e integração mobile↔api**, consulte:
+> 
+> ### 🔗 [ARCHITECTURE.md](../../ARCHITECTURE.md) ← **REFERÊNCIA OFICIAL**
+> 
+> Você encontrará:
+> - ✅ Estrutura completa `src/mobile/` com todas as pastas
+> - ✅ Estrutura completa `src/api/` com todos os módulos
+> - ✅ Estrutura `src/shared/` com tipos e utilitários compartilhados
+> - ✅ Fluxo de dados: User Action → Frontend Service → API → Database → Response
+> - ✅ Checklist de criação (package.json, tsconfig.json, app.json, schema.prisma, etc)
+> - ✅ Exemplos de uso e boas práticas
 
 ---
 
